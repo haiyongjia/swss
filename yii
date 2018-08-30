@@ -1,0 +1,20 @@
+#!/usr/bin/env php
+<?php
+// 定义常用路径
+define("ROOT_DIR", dirname(__FILE__));
+defined('WII_ENV') or define('WII_ENV', 'prod');
+defined('WII_ENV_DEV') or define('WII_ENV_DEV', true);
+
+defined('APPID') or define('APPID', 'websocket');
+/*
+ * 框架加载，需与 [app]/web/index.php 中加载文件保持一致
+ */
+require ('/data/code/wii/wii2/framework/Wii.php'); // Wii框架加载
+
+//获取命令行模式配置
+$config = \Wii::getEnv()->getConfig('console');
+
+require ('/data/code/wii/wii2/framework/wcl.php'); // 加载 Wii Command Line 主体
+
+
+?>

@@ -1,0 +1,10 @@
+{
+    "name": "root/jhy",
+    "description": "websocket demo",
+    "type": "project",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "1.0.1",
+    "minimum-stability": "dev"
+}

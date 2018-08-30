@@ -1,0 +1,16 @@
+.idea
+.buildpath
+.project
+.settings
+.DS_Store
+.settings
+.project
+.buildpath
+/runtime/*
+/web/assets/*
+!/web/assets/readme.md
+/vendor/wii/*
+make_wii_soft_link.py
+/web/public/upload
+/web/logs
+controllers/TestController.php
